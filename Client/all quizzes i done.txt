@@ -1,0 +1,607 @@
+CORRECT - See Section 2
+Commands are case-sensitive.
+? True
+
+CORRECT - See Section 2
+When entering a command, do arguments or options typically come first?
+? Options
+
+CORRECT - See Section 3
+Which command will print your current location in the filesystem?
+? pwd
+
+CORRECT - See Section 4
+Which command will allow you to change your current directory?
+? cd
+
+CORRECT - See Section 4
+Which of the following is NOT an example of an absolute path?
+? Documents
+
+CORRECT - See Section 4
+The ~ (tilde) character is used to represent:
+? A user's home directory
+
+CORRECT - See Section 4
+The .. (double period) characters are used to represent:
+? The directory above the current directory
+
+CORRECT - See Section 4
+The . (period) character is used to represent:
+? The current directory
+
+CORRECT - See Section 5
+The ls command without options or arguments...
+? ...lists the contents of the current directory.
+
+CORRECT - See Section 5
+The first character in a long listing ls -l indicates:
+? File Type
+
+CORRECT - See Section 6
+Which of these commands will create a new shell logged in as the root user?
+? su
+
+CORRECT - See Section 7
+Which of the following sets has the owner permissions highlighted?
+? rw-rw-r--
+
+CORRECT - See Section 7
+Which of the following sets has the group permissions highlighted?
+? rw-rw-r--
+
+CORRECT - See Section 7
+Which of the following sets has the other permissions highlighted?
+? rw-rw-r--
+
+CORRECT - See Section 8
+Which command will allow a user to change the permissions of a file?
+? chmod
+
+CORRECT - See Section 7
+Which of the following permission sets indicates that others have only the read permission?
+? rw-rw-r--
+
+CORRECT - See Section 9
+Which of the following commands is used to change the ownership of a file?
+? chown
+
+CORRECT - See Section 10
+Which of the following commands can be used to rename a file?
+? mv
+
+CORRECT - See Section 10
+The mv command requires at least two arguments.
+? True
+
+CORRECT - See Section 11
+Which command can be used to copy a file?
+? cp
+
+CORRECT - See Section 11
+The cp command requires at least two arguments.
+? True
+
+CORRECT - See Section 12
+The rm command requires at least two arguments.
+? False
+
+CORRECT - See Section 13
+Which of the following commands is used to filter text?
+? grep
+
+CORRECT - See Section 13.2
+Which of the following commands will return only lines that begin with test?
+? grep '^test' file.txt
+
+CORRECT - See Section 13.2
+Which of the following lines would be returned by the grep 'b[oe]t' file.txt command?
+? bet
+
+WRONG - See Section 14
+Which of the following commands will NOT shutdown the system immediately?
+? shutdown
+
+CORRECT - See Section 16
+The ps command requires administrative access.
+? False
+
+CORRECT - See Section 18
+The root user can change the password of any user.
+? True
+
+CORRECT - See Section 20
+Which of the following commands can be used to print output to the terminal?
+? echo
+
+WRONG - See Section 13
+Which of the following commands will display the last five lines of a file called file1.txt?
+(choose two)
+? tail -5 file1.txt
+
+------------------------------------------------------------------------------------------------------
+CORRECT - See Section 2
+What does CLI stand for?
+? Command Line Interface
+
+CORRECT - See Section 2
+Commands are case-sensitive.
+? True
+
+CORRECT - See Section 2
+When entering a command, do arguments or options typically come first?
+? Options
+
+CORRECT - See Section 3
+Which command will print your current location in the filesystem?
+? pwd
+
+CORRECT - See Section 4
+Which command will allow you to change your current directory?
+? cd
+
+CORRECT - See Section 4
+Which of the following is NOT an example of an absolute path?
+? Documents
+
+CORRECT - See Section 4
+Which of the following is NOT an example of a relative path?
+? /home
+
+CORRECT - See Section 4
+The ~ (tilde) character is used to represent:
+? A user's home directory
+
+CORRECT - See Section 5
+The ls command without options or arguments...
+? ...lists the contents of the current directory.
+
+CORRECT - See Section 5
+The first character in a long listing ls -l indicates:
+? File Type
+
+CORRECT - See Section 5
+Which option to the ls will sort the output by file size?
+? -S
+
+CORRECT - See Section 7
+Which of the following sets has the owner permissions highlighted?
+? rw-rw-r--
+
+CORRECT - See Section 7
+Which of the following sets has the other permissions highlighted?
+? rw-rw-r--
+
+CORRECT - See Section 9
+Which of the following commands is used to change the ownership of a file?
+? chown
+
+CORRECT - See Section 9
+Changing the user owner of a file requires administrative access.
+? True
+
+CORRECT - See Section 10
+Which of the following commands can be used to rename a file?
+? mv
+
+CORRECT - See Section 10
+The mv command requires at least two arguments.
+? True
+
+CORRECT - See Section 11.1
+Which command is used to copy files at the bit level?
+? dd
+
+CORRECT - See Section 12
+The rm command requires at least two arguments.
+? False
+
+CORRECT - See Section 12
+Which option to the rm command will allow a user to delete directories?
+? -r
+
+CORRECT - See Section 13.2
+Which of the following commands will return only lines that begin with test?
+? grep '^test' file.txt
+
+CORRECT - See Section 13.2
+Which of the following commands will return only lines that end with test?
+? grep 'test$' file.txt
+
+CORRECT - See Section 13.2
+Which of the following lines would be NOT returned by the grep '[^0-9]' file.txt command?
+? 3121991
+
+WRONG - See Section 16
+Which of the following commands will display every process?
+? ps -a
+
+CORRECT - See Section 16
+The ps command requires administrative access.
+? False
+
+WRONG - See Section 17
+Which of the following commands will update all packages?
+? apt-get update
+
+CORRECT - See Section 17
+Which of the following will delete all of a package's files?
+? apt-get purge
+
+CORRECT - See Section 20
+The &gt; character is used for which of the following file descriptors?
+? STDOUT
+
+WRONG - See Section 13
+Which of the following commands will display the last five lines of a file called file1.txt?
+(choose two)
+? tail -5 file1.txt
+
+CORRECT - See Section 16
+The ping command uses IP addresses to identify a computer on a network.
+? True
+============================================================
+
+CORRECT - See Section 2
+When entering a command, do arguments or options typically come first?
+? Options
+
+CORRECT - See Section 2.2
+Which of the following is NOT a correct way to combine options?
+? -r l
+
+CORRECT - See Section 4
+Which command will allow you to change your current directory?
+? cd
+
+CORRECT - See Section 4
+Which of the following is NOT an example of an absolute path?
+? Documents
+
+CORRECT - See Section 4
+Which of the following is NOT an example of a relative path?
+? /home
+
+CORRECT - See Section 4
+The ~ (tilde) character is used to represent:
+? A user's home directory
+
+CORRECT - See Section 4
+The .. (double period) characters are used to represent:
+? The directory above the current directory
+
+CORRECT - See Section 4
+The . (period) character is used to represent:
+? The current directory
+
+CORRECT - See Section 5
+The first character in a long listing ls -l indicates:
+? File Type
+
+CORRECT - See Section 5
+Which option to the ls will sort the output by file size?
+? -S
+
+CORRECT - See Section 7
+Which of the following sets has the group permissions highlighted?
+? rw-rw-r--
+
+CORRECT - See Section 8
+Which command will allow a user to change the permissions of a file?
+? chmod
+
+CORRECT - See Section 7
+Which of the following permission sets indicates that others have only the read permission?
+? rw-rw-r--
+
+CORRECT - See Section 9
+Changing the user owner of a file requires administrative access.
+? True
+
+CORRECT - See Section 10
+The mv command requires at least two arguments.
+? True
+
+CORRECT - See Section 11
+Which command can be used to copy a file?
+? cp
+
+CORRECT - See Section 11
+The cp command requires at least two arguments.
+? True
+
+CORRECT - See Section 11.1
+Which command is used to copy files at the bit level?
+? dd
+
+CORRECT - See Section 12
+The rm command requires at least two arguments.
+? False
+
+CORRECT - See Section 13
+Which of the following commands is used to filter text?
+? grep
+
+CORRECT - See Section 13.2
+Which of the following commands will return only lines that begin with test?
+? grep '^test' file.txt
+
+WRONG - See Section 13.2
+Which of the following commands will return only lines that end with test?
+
+CORRECT - See Section 13.2
+Which of the following lines would be NOT returned by the grep '[^0-9]' file.txt command?
+? 3121991
+
+CORRECT - See Section 13.2
+Which of the following lines would be returned by the grep 'b[oe]t' file.txt command?
+? bet
+
+WRONG - See Section 14
+Which of the following commands will NOT shutdown the system immediately?
+? shutdown now 'Goodbye World!'
+
+CORRECT - See Section 15
+Which of the following commands can be used to display network configuration information?
+? ifconfig
+
+CORRECT - See Section 17
+Which of the following commands should be executed before installing a package?
+? apt-get update
+
+CORRECT - See Section 18
+The root user can change the password of any user.
+? True
+
+CORRECT - See Section 20
+Which of the following commands can be used to print output to the terminal?
+? echo
+
+CORRECT - See Section 20
+The &gt; character is used for which of the following file descriptors?
+? STDOUT
+
+------------------------------------------------------------------------------------
+
+CORRECT - See Section 2
+Commands are case-sensitive.
+? True
+
+CORRECT - See Section 2.2
+Which of the following is NOT a correct way to combine options?
+? -r l
+
+CORRECT - See Section 4
+Which command will allow you to change your current directory?
+? cd
+
+CORRECT - See Section 4
+Which of the following is NOT an example of an absolute path?
+? Documents
+
+CORRECT - See Section 4
+Which of the following is NOT an example of a relative path?
+? /home
+
+CORRECT - See Section 4
+The ~ (tilde) character is used to represent:
+? A user's home directory
+
+CORRECT - See Section 4
+The . (period) character is used to represent:
+? The current directory
+
+CORRECT - See Section 5
+The ls command without options or arguments...
+? ...lists the contents of the current directory.
+
+CORRECT - See Section 6
+Which of these commands will create a new shell logged in as the root user?
+? su
+
+CORRECT - See Section 7
+Which of the following sets has the owner permissions highlighted?
+? rw-rw-r--
+
+CORRECT - See Section 9
+Which of the following commands is used to change the ownership of a file?
+? chown
+
+CORRECT - See Section 9
+Changing the user owner of a file requires administrative access.
+? True
+
+CORRECT - See Section 10
+Which of the following commands can be used to rename a file?
+? mv
+
+CORRECT - See Section 11
+Which command can be used to copy a file?
+? cp
+
+CORRECT - See Section 11.1
+Which command is used to copy files at the bit level?
+? dd
+
+CORRECT - See Section 12
+The rm command requires at least two arguments.
+? False
+
+CORRECT - See Section 13.2
+Which of the following commands will return only lines that begin with test?
+? grep '^test' file.txt
+
+CORRECT - See Section 13.2
+Which of the following commands will return only lines that end with test?
+? grep 'test$' file.txt
+
+CORRECT - See Section 13.2
+Which of the following lines would be NOT returned by the grep '[^0-9]' file.txt command?
+? 3121991
+
+CORRECT - See Section 13.2
+Which of the following lines would be returned by the grep 'b[oe]t' file.txt command?
+? bet
+
+WRONG - See Section 14
+Which of the following commands will NOT shutdown the system immediately?
+? shutdown +0
+
+CORRECT - See Section 15
+Which of the following commands can be used to display network configuration information?
+? ifconfig
+
+CORRECT - See Section 16
+Which of the following commands will display every process?
+? ps -e
+
+CORRECT - See Section 16
+The ps command requires administrative access.
+? False
+
+CORRECT - See Section 17
+Which of the following will delete all of a package's files?
+? apt-get purge
+
+CORRECT - See Section 18
+The root user can change the password of any user.
+? True
+
+CORRECT - See Section 18
+Which option can be used to view status information about the current user's password?
+? -S
+
+CORRECT - See Section 20
+The &gt; character is used for which of the following file descriptors?
+? STDOUT
+
+WRONG - See Section 13
+Which of the following commands will display the last five lines of a file called file1.txt?
+(choose two)
+? tail -5 file1.txt
+
+CORRECT - See Section 16
+The ping command uses IP addresses to identify a computer on a network.
+? True
+===============================================
+CORRECT - See Section 2
+What does CLI stand for?
+? Command Line Interface
+
+CORRECT - See Section 2
+Commands are case-sensitive.
+? True
+
+CORRECT - See Section 2
+When entering a command, do arguments or options typically come first?
+? Options
+
+CORRECT - See Section 3
+Which command will print your current location in the filesystem?
+? pwd
+
+CORRECT - See Section 4
+Which command will allow you to change your current directory?
+? cd
+
+CORRECT - See Section 4
+Which of the following is NOT an example of an absolute path?
+? Documents
+
+CORRECT - See Section 4
+The . (period) character is used to represent:
+? The current directory
+
+CORRECT - See Section 5
+The first character in a long listing ls -l indicates:
+? File Type
+
+CORRECT - See Section 6
+Which of these commands will create a new shell logged in as the root user?
+? su
+
+CORRECT - See Section 7
+Which of the following sets has the group permissions highlighted?
+? rw-rw-r--
+
+CORRECT - See Section 8
+Which command will allow a user to change the permissions of a file?
+? chmod
+
+CORRECT - See Section 7
+Which of the following permission sets indicates that others have only the read permission?
+? rw-rw-r--
+
+CORRECT - See Section 9
+Which of the following commands is used to change the ownership of a file?
+? chown
+
+CORRECT - See Section 9
+Changing the user owner of a file requires administrative access.
+? True
+
+CORRECT - See Section 11
+Which command can be used to copy a file?
+? cp
+
+CORRECT - See Section 11
+The cp command requires at least two arguments.
+? True
+
+CORRECT - See Section 11.1
+Which command is used to copy files at the bit level?
+? dd
+
+CORRECT - See Section 12
+The rm command requires at least two arguments.
+? False
+
+CORRECT - See Section 12
+Which option to the rm command will allow a user to delete directories?
+? -r
+
+CORRECT - See Section 13.2
+Which of the following commands will return only lines that begin with test?
+? grep '^test' file.txt
+
+CORRECT - See Section 13.2
+Which of the following lines would be returned by the grep 'b[oe]t' file.txt command?
+? bet
+
+CORRECT - See Section 16
+Which of the following commands will display every process?
+? ps -e
+
+CORRECT - See Section 17
+Which of the following commands will update all packages?
+? apt-get upgrade
+
+CORRECT - See Section 17
+Which of the following will delete all of a package's files?
+? apt-get purge
+
+CORRECT - See Section 17
+Which of the following commands should be executed before installing a package?
+? apt-get update
+
+CORRECT - See Section 18
+The root user can change the password of any user.
+? True
+
+CORRECT - See Section 20
+Which of the following commands can be used to print output to the terminal?
+? echo
+
+CORRECT - See Section 20
+The &gt; character is used for which of the following file descriptors?
+? STDOUT
+
+CORRECT - See Section 13
+Which of the following commands will display the last five lines of a file called file1.txt?
+(choose two)
+? tail -5 file1.txt
+? tail -n 5 file1.txt
+
+CORRECT - See Section 16
+The ping command uses IP addresses to identify a computer on a network.
+? True
