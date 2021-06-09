@@ -3,10 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/nishimweelysee/Client/src/config/config.java</file>
-            <file>file:/Users/nishimweelysee/Client/src/View/AccountView.java</file>
-            <file>file:/Users/nishimweelysee/Client/src/Model/Account.java</file>
-            <file>file:/Users/nishimweelysee/Client/src/InterfaceClass/ServerInterface.java</file>
+            <file>file:/C:/Users/Andela/Desktop/Chat/Client/src/Model/Account.java</file>
+            <file>file:/C:/Users/Andela/Desktop/Chat/Client/src/View/ServerConnection.java</file>
+            <file>file:/C:/Users/Andela/Desktop/Chat/Client/src/utils/encription.java</file>
+            <file>file:/C:/Users/Andela/Desktop/Chat/Client/src/config/config.java</file>
+            <file>file:/C:/Users/Andela/Desktop/Chat/Client/src/View/AccountView.java</file>
+            <file>file:/C:/Users/Andela/Desktop/Chat/Client/src/View/Clients.java</file>
+            <file>file:/C:/Users/Andela/Desktop/Chat/Client/src/InterfaceClass/ServerInterface.java</file>
+            <file>file:/C:/Users/Andela/Desktop/Chat/Client/src/View/hellman.java</file>
         </group>
     </open-files>
 </project-private>

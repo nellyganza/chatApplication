@@ -47,14 +47,15 @@ import javax.swing.JFileChooser;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import utils.encription;
 
 /**
  *
  * @author Nishimwe Elysee
  */
-public class Clients extends javax.swing.JFrame {
+public class Clients extends javax.swing.JFrame{
 
-    
+    encription encr =  new encription();
     static String usernames;
     static Socket socket = null;
     static String receiver;
@@ -384,6 +385,8 @@ public class Clients extends javax.swing.JFrame {
             pnlchat.revalidate();
             pnlchat.repaint();
             heightOfPanel = 0;
+            hellman h = new hellman(usernames, receiver);
+            h.show();
         } catch (IOException | NotBoundException ex) {
             Logger.getLogger(Clients.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -394,7 +397,8 @@ public class Clients extends javax.swing.JFrame {
         try {
             DefaultListModel list = new DefaultListModel();
             list.addElement("to");
-            list.addElement(msg_txt.getText());
+            
+            list.addElement(encr.encrypt(msg_txt.getText(), usernames));
             list.addElement(receiver);
             
             oout.writeObject(list);
@@ -430,10 +434,11 @@ public class Clients extends javax.swing.JFrame {
             try {
                 DefaultListModel list = new DefaultListModel();
                 list.addElement("to");
-                list.addElement(msg_txt.getText());
+                list.addElement(encr.encrypt(msg_txt.getText(), usernames));
                 list.addElement(receiver);
                 
                 oout.writeObject(list);
+                oout.flush();
                 CreateBoxMessage(msg_txt.getText(),true);
                 scrpane.getVerticalScrollBar().setValue(scrpane.getVerticalScrollBar().getMaximum()+3);
                 msg_txt.setText("");
@@ -552,9 +557,11 @@ public class Clients extends javax.swing.JFrame {
         }
     }
     public static void printMesage(String msg){
-         System.out.println("Server say: "+ msg);
-       CreateBoxMessage(msg,false);
-       msg_txt.setText("");
+        System.out.println("Server say: "+ msg);
+        encription encr = new encription();
+        msg = encr.dencrypt(msg, usernames);
+        CreateBoxMessage(msg,false);
+        msg_txt.setText("");
     }
     private static int heightOfPanel= 0;
     public static  void CreateBoxMessage(String message, Boolean isRight){

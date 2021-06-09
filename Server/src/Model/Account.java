@@ -32,6 +32,8 @@ public class Account implements Serializable {
     private String fullname;
     @Lob
     private byte[] photo;
+    private String clientSecreteKey;
+    public String clickPublicKey;
 
     public Account() {
     }
@@ -49,6 +51,22 @@ public class Account implements Serializable {
         this.photo = photo;
     }
 
+    public String getClientSecreteKey() {
+        return clientSecreteKey;
+    }
+
+    public void setClientSecreteKey(String clientSecreteKey) {
+        this.clientSecreteKey = clientSecreteKey;
+    }
+
+    public String getClickPublicKey() {
+        return clickPublicKey;
+    }
+
+    public void setClickPublicKey(String clickPublicKey) {
+        this.clickPublicKey = clickPublicKey;
+    }
+    
     public byte[] getPhoto() {
         return photo;
     }
